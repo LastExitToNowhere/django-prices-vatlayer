@@ -33,6 +33,6 @@ setup(
     include_package_data=True,
     classifiers=CLASSIFIERS,
     install_requires=[
-        'Django>=1.11', 'prices>=1.0.0', 'requests', 'jsonfield'],
+        'Django>=2.2.19', 'prices>=1.1.0', 'requests'],
     platforms=['any'],
     zip_safe=False)
