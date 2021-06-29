@@ -1,7 +1,6 @@
-from jsonfield import JSONField
-
 from django.db import models
 from django.utils.translation import pgettext_lazy
+from django.contrib.postgres.fields import JSONField
 
 DEFAULT_TYPES_INSTANCE_ID = 1
 
